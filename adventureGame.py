@@ -12,17 +12,19 @@ s = input(default_greeting)
 uname = ''
 uname = input("What's your name? ")
 print("Nice to meet you " + uname + "!")
-age = input("Your age? ")
+age = input("What's your age? ")
 print("So, you are already " + age + " years old, " + uname + "!")
+print("You will be asked a series of questions, Here we go!")
 run = True
 count = 0
+count_limit = 25
 while run:
-    print(count)
+#    print(count)
     count += 1
-    if count > 9:
+    input("a question: " + str(count))
+    if count > count_limit:
         run = False
 print("this is the end")
-
 if(count == 10):
     s = input('Do you want to exit the Adventure game?\n')
     s = s.strip().lower()
