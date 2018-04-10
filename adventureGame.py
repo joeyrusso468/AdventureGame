@@ -44,3 +44,9 @@ else:
             print('Good bye, thanks for trying the Adventure Game!')
         else:
             print('Good bye, ' + uname + ' and thanks for trying the Adventure Game!')
+'''num = 0
+if num > 50:
+    print('Wow, your pretty old!')
+else:
+    print('Wow your still pretty young')
+print('done')'''
