@@ -12,9 +12,18 @@ s = input(default_greeting)
 uname = ''
 uname = input("What's your name? ")
 print("Nice to meet you " + uname + "!")
-age = input("What's your age? ")
-print("So, you are already " + age + " years old, " + uname + "!")
-print("You will be asked a series of questions, Here we go!")
+
+age = int(input("What's your age? "))
+print("So, you are already " + str(age) + " years old, " + uname + "!")
+if age > 25:
+    print('Wow, your pretty old!')
+else:
+    print('Wow your still pretty young')
+print("Here we go!")
+
+
+print(" You wake up in the morning to realize your late to school.") 
+
 run = True
 count = 0
 count_limit = 25
@@ -44,9 +53,3 @@ else:
             print('Good bye, thanks for trying the Adventure Game!')
         else:
             print('Good bye, ' + uname + ' and thanks for trying the Adventure Game!')
-'''num = 0
-if num > 50:
-    print('Wow, your pretty old!')
-else:
-    print('Wow your still pretty young')
-print('done')'''
