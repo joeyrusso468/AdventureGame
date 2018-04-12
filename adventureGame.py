@@ -21,16 +21,14 @@ else:
     print('Wow your still pretty young')
 print("Here we go!")
 
-
-print(" You wake up in the morning to realize your late to school.") 
-
 run = True
 count = 0
 count_limit = 25
 while run:
 #    print(count)
     count += 1
-    input("a question: " + str(count))
+question1= Do you stay home or go to school?
+    input(" question1 " + str(count))
     if count > count_limit:
         run = False
 print("this is the end")
